@@ -3,7 +3,7 @@ About r-pulsar
 
 Home: http://github.com/zdk123/pulsar, http://arxiv.org/abs/1605.07072
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD-3-Clause
 
