@@ -1,4 +1,4 @@
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pulsar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pulsar/pulsar_{{ version }}.tar.gz
-  sha256: 78c9f7e3b2bf8a8d16a81d6ee43bb05b0c360219be473d920c8c8ccb2aba4e3d
+  sha256: a847bbd4fe4001877649a67a3ca879be8ac79406047c9c1cbb4218a285f83053
 
 build:
   merge_build_host: true  # [win]
