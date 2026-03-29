@@ -1,4 +1,4 @@
-{% set version = "0.3.12" %}
+{% set version = "0.3.13" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pulsar_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pulsar/pulsar_{{ version }}.tar.gz
-  sha256: 258fd9cc3ce513d0d9c24bb219ab3e7a29706391bbe27b88cd95c7ecebdc3485
+  sha256: 3703c0930ffdc46a3472c0dc26b23c08a92d31e2ad18ac5f1604dd256509a7f8
 
 build:
   number: 0
